@@ -231,6 +231,12 @@
                     "description": "Tools to use for building Panel of Normals or models.",
                     "help_text": "Multiple tools separated with commas.\n\nTools available: CNVKIT,germlinecnvcaller,gens,mutect2",
                     "pattern": "^((cnvkit|germlinecnvcaller|gens|mutect2)?,?)*(?<!,)$"
+                },
+                "tmp_dir": {
+                    "type": "string",
+                    "Description": "tmpdir path",
+                    "format": "directory-path",
+                    "fa_icon": "fas fa-folder-open"
                 }
             },
             "fa_icon": "fas fa-user-cog"
