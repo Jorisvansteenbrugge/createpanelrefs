@@ -5,8 +5,7 @@ process GATK4_DETERMINEGERMLINECONTIGPLOIDY {
 
     //Conda is not supported at the moment: https://github.com/broadinstitute/gatk/issues/7811
     container "docker.io/broadinstitute/gatk:4.5.0.0" //Biocontainers is missing a package
-    //container "quay.io/biocontainers/gatk4:4.4.0.0--py36hdfd78af_0"
-    containerOptions '-u root:root'
+
 
     
 

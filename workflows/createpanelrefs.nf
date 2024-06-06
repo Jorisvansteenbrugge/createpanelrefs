@@ -83,6 +83,7 @@ workflow CREATEPANELREFS {
     ch_versions = Channel.empty()
     ch_multiqc_files = Channel.empty()
 
+
     if (params.tools && params.tools.split(',').contains('cnvkit')) {
 
         ch_samplesheet
